@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/orozco746/mui-searcher#readme",
   "name": "mui-searcher",
   "version": "1.0.0",
   "description": "",
@@ -6,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --mode development",
-    "build": "webpack"
+    "build": "webpack",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -15,12 +17,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/orozco746/mui-searcher#readme",
   "dependencies": {
     "@emotion/react": "11.8.1",
     "@emotion/styled": "11.8.1",
     "@mui/icons-material": "5.4.4",
     "@mui/material": "5.4.4",
+    "gh-pages": "^4.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
